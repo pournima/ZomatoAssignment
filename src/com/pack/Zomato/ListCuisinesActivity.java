@@ -38,10 +38,8 @@ public class ListCuisinesActivity extends Activity {
 		cityId=(String)intent.getSerializableExtra("cityId");
 		Log.d("city_id :", ""+cityId);
 		getCuisinesInfo();
-		
-		
-		
-	}
+
+}
 	
 	private void getCuisinesInfo() {
 		
